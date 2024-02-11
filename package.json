@@ -1,0 +1,17 @@
+{
+  "name": "mistrz-ai-lang-chain",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "start: dev": "tsc && node --enable-source-maps ./dist/index.js"
+  },
+  "dependencies": {
+    "@huggingface/inference": "2",
+    "langchain": "^0.1.9",
+    "openai": "^4.27.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
